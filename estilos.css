@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e4ded0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+h1{
+    background-color: #213435;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header img{
+    border-radius: 170px;
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: double 20px;
+}
+
+nav{
+    background-color: #46685b;
+    overflow: hidden;
+    padding-left: 90px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #648a64;
+    color: white;
+}
+
+main section{
+    width: 80%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+section{
+    padding: 35px;
+    background-color: #c5b89f;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.inicio{
+    background: url(img/interior.jpg);
+    background-position: top;
+    background-size: center;
+    opacity: 0.7;
+    color: white;
+}
+
+.sobrenosotros strong{
+    color: #2f2f4d;
+}
+
+.sobrenosotros li, .nuestrosdiseñadores li{
+    list-style-type: square;
+}
+
+table{
+    border: 20px black;
+    border-collapse: collapse;
+    text-align: justify;
+    border-style: inset;
+    width: 85%;
+}
+
+table ul{
+    line-height: 25px;
+    padding: 10px;
+}
+
+table li:hover{
+    color: #384030;
+    font-weight: bold;
+    text-decoration: double;
+}
+
+table td{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.cuadro{
+    margin-left: 10%;
+}
+
+.nuestrosdiseñadores{
+    background-color: #626970;
+}
+
+th{
+    background-color: #e4ded0;
+}
+
+td{
+    background-color: #c5b89f;
+}
+
+.tablados{
+    border: 10px double black;
+    width: 100%;
+    
+}
+
+.tablados th{
+    background-color: #626970;
+}
+
+.tablados td{
+    background-color: #e4ded0;
+}
+
+.tablatres{
+    border: 10px double black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablatres td{
+    background-color: #e4ded0;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px; /* Espacio entre las imágenes */
+    padding: 5px;
+    justify-content: center;
+}
+
+.resize-image {
+    width: 250px; /* Tamaño original de las imágenes */
+    transition: transform 0.3s ease;
+}
+
+.resize-image:hover {
+    transform: scale(2); /* Agrandar las imágenes al pasar el cursor */
+}
+
+.video-container {
+    margin: 20px 0;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+video {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tablacuatro{
+    border: 5px;
+    border-collapse: collapse;
+    margin-left: 90px;
+}
+
+.tablacinco{
+    border: 5px;
+    border-collapse: collapse;
+}
+
+.tablaseis{
+    border: 5px;
+    border-collapse: collapse;
+    margin-left: 90px;
+}
+
+.tablasiete{
+    border: 5px;
+    border-collapse: collapse;
+}
+
+.fondo{
+    background-color: #e4ded0;
+}
+
+form{
+    width: 70%;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #c5b89f;
+}
+
+form h2{
+    text-align: center;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+} 
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus{
+    border: 4px solid lightslategray;
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: #28a745;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #218838;
+    cursor: pointer;
+}
+
+.contacto{
+    background-color: #626970;
+}
+
+.redes-container{
+    display: block;
+    margin-left: 65%;
+}
+
+.redes-container img{
+    padding: 10px;
+}
+
+footer{
+    background-color: #213435;
+    color: white;
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
